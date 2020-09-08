@@ -74,6 +74,7 @@
         android:layout_marginTop="16dp"
         android:text="@string/T"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvTopB" />
 
@@ -86,6 +87,48 @@
         app:layout_constraintEnd_toStartOf="@+id/tvB2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvTopA" />
+
+    <TextView
+        android:id="@+id/tvA3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:text="@string/T"
+        app:layout_constraintEnd_toStartOf="@+id/tvB3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTopA" />
+
+    <TextView
+        android:id="@+id/tvA4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:text="@string/T"
+        app:layout_constraintEnd_toStartOf="@+id/tvB4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTopA" />
+
+    <TextView
+        android:id="@+id/tvB3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:text="@string/T"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTopB" />
+
+    <TextView
+        android:id="@+id/tvB4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:text="@string/T"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTopB" />
 
     <TextView
         android:id="@+id/tvB2"
@@ -102,14 +145,14 @@
     <EditText
         android:id="@+id/etTT"
         android:layout_width="70dp"
-        android:layout_height="41dp"
+        android:layout_height="32dp"
         android:layout_marginTop="8dp"
-        android:ems="10"
-        android:textAllCaps="true"
-        android:inputType="textCapCharacters"
-        android:gravity="center"
-        android:maxLength="1"
         android:digits="FfTt"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textCapCharacters"
+        android:maxLength="1"
+        android:textAllCaps="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.519"
         app:layout_constraintStart_toEndOf="@+id/tvB1"
@@ -118,14 +161,14 @@
     <EditText
         android:id="@+id/etTF"
         android:layout_width="70dp"
-        android:layout_height="41dp"
+        android:layout_height="32dp"
         android:layout_marginTop="56dp"
-        android:ems="10"
-        android:textAllCaps="true"
-        android:inputType="textCapCharacters"
-        android:gravity="center"
-        android:maxLength="1"
         android:digits="FfTt"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textCapCharacters"
+        android:maxLength="1"
+        android:textAllCaps="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.519"
         app:layout_constraintStart_toEndOf="@+id/tvB1"
@@ -134,14 +177,14 @@
     <EditText
         android:id="@+id/etFT"
         android:layout_width="70dp"
-        android:layout_height="41dp"
+        android:layout_height="32dp"
         android:layout_marginTop="104dp"
+        android:digits="FfTt"
         android:ems="10"
         android:gravity="center"
         android:inputType="textCapCharacters"
         android:maxLength="1"
         android:textAllCaps="true"
-        android:digits="FfTt"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.519"
         app:layout_constraintStart_toEndOf="@+id/tvB1"
@@ -150,14 +193,14 @@
     <EditText
         android:id="@+id/etFF"
         android:layout_width="70dp"
-        android:layout_height="41dp"
+        android:layout_height="32dp"
         android:layout_marginTop="152dp"
+        android:digits="FfTt"
         android:ems="10"
         android:gravity="center"
         android:inputType="textCapCharacters"
         android:maxLength="1"
         android:textAllCaps="true"
-        android:digits="FfTt"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.519"
         app:layout_constraintStart_toEndOf="@+id/tvB1"
